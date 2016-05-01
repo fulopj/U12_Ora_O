@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Orientation</title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            window.addEventListener("deviceorientation", function (event) {
+                console.log("x tengely: " + event.beta + " y tengely: " + event.gamma + " z tengely: " + event.alpha);
+            });
+        </script>
+    </body>
+
+</html>
